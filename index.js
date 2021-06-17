@@ -125,11 +125,14 @@ const atif = new Person('Atif',30);
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1.
-    2.  
-    3. 
-    4.
-  */
+    1.Window Binding : If none of the other rules apply 'this' defaults to the window, the global object in node or undefined in strict mode. - this happens when we don't give the 'this' keyword any context.
+    2.Implicit Binding: when the function is invoked, look to the left of the dot, that's what 'this' refers to.  
+    3.Explicit Binding 
+     call - immediately invokes the function, we pass in arguments 1 by 1
+    apply - immediate invokes the function, we pass in arguments as an array
+    bind - does not immediately invoke the function, instead it returns a brand new function that can be invoked later, we pass in the arguments 1 by 1 
+    4.New Binding: using the new keyword constructs a new object and 'this' point to it 
+   when a function is invoked as a constructor function 'this' points to the newly created object
   
   
   ///////// END OF CHALLENGE /////////
