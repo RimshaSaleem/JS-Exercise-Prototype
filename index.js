@@ -64,14 +64,15 @@ const atif = new Person('Atif',30);
  console.log(atif);
  console.log(sara);
 
-  console.log(atif.eat('pizza'));
-  console.log(atif.eat('burger'));
+  console.log(sara.eat('pizza'));
+  console.log(sara.eat('burgers'));
   console.log(atif.eat('taccos'));
   console.log(atif.eat('ice-cream'));
   console.log(atif.stomach);
   atif.poop();
   console.log(atif.toString());
-  
+  sara.poop();
+  console.log(sara.toString());
   /*
     TASK 2
       - Write a Car constructor that initializes `model` and `milesPerGallon` from arguments.
