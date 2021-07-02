@@ -51,7 +51,7 @@ function Airplane(name) {
           + It should return a string with `name` and `age`. Example: "Mary, 50"
   */
   
- function Person(name,age) {
+  function Person(name,age) {             
     this.name=name;
     this.age=age;
     this.stomach=[];
@@ -134,7 +134,15 @@ const atif = new Person('Atif',30);
          return `Playing with ${this.favoriteToy}`;
        }
  
-  
+  // class Baby extends Person{
+  //   constructor(this,name,age){
+  //     super(name,age);
+  //     this.favoriteToy = favoriteToy;
+  //   }
+  //   play(){
+  //     return `Playing with ${this.favoriteToy}`;
+  //   }
+  // }
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
