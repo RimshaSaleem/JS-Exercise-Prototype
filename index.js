@@ -18,8 +18,20 @@ function Airplane(name) {
   Airplane.prototype.land = function () {
     this.isFlying = false;
   };
-  
-  
+
+  // convert into class syntax 
+//   class Airplane{
+//     constructor(att){
+//     this.name = att.name;
+//     this.isFlying = att.isFlying;
+//   }
+//   takeOff(){
+//     this.isFlying = true;
+//   }
+//   land(){
+//     this.isFlying = true; 
+//   }
+// }
   /*
   // 👇 COMPLETE YOUR WORK BELOW 👇
   // 👇 COMPLETE YOUR WORK BELOW 👇
